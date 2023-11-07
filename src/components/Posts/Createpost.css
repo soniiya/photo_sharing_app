@@ -1,0 +1,127 @@
+.createpost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.upload_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+.upload_leftcontainer{
+    display: flex;
+    width: 100%;
+    flex: 0.7 1;
+    padding: 0.7rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+}
+
+.upload_cloud{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-style: dotted;
+   padding: 0.75rem;
+   border-width: 2px;  
+   width: 100%;
+   height: 420px;
+}
+
+.upload_lable{
+display: flex;    
+justify-content: center;
+align-items:center;
+flex-direction:column;
+height: 100%;
+}
+
+.upload_content{
+    display:flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    flex: 1 1;
+    width: 100%;
+    margin-top: 1.25rem;
+    padding-left: 1.75rem;
+}
+
+.upload_title{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+    border-bottom-width: 2px;
+}
+
+.upload_user{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.upload_about{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+    border-bottom-width: 2px;
+}
+
+.upload_category{
+    outline: 2px solid transparent;
+    outline-offset: 2px; 
+    font-size: 1rem;
+    line-height: 1.5rem;
+    --tw-border-opacity: 1; 
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+.save_btn{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    fonr-weight: 700;
+    padding: 0.5rem;
+    background-color:  rgb(239 68 68);
+    width: 7rem;
+    border-radius: 5px;
+    color: white;
+}
+
+@media screen and (min-width:1024px){
+    .upload_container{
+        flex-direction: row;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .createpost{
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 640px){
+    .upload_title{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    }
+}

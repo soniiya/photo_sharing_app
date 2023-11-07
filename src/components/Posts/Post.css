@@ -1,0 +1,70 @@
+.post{
+   position: relative;
+   width: auto;
+   cursor: zoom-in;
+   overflow: hidden;
+   border-radius: 0.5rem;
+   transition-duration: .15s;
+   transition-property: all;
+   transition-timing-function: cubic-bezier(.4,0,.2,1);
+   transition-duration: .5s; 
+   transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.post img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.post_username{
+    gap:0.5rem;
+    align-items:center;
+    display:flex;
+    margin-top: 0.5rem;
+}
+
+.post_username a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.post_username a img{
+object-fit: cover;
+border-radius: 100%;
+width: 2rem;
+height: 2rem;
+}
+
+.post_download{
+    position:absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+    padding-bottom: 1.75rem;
+    padding-right:1.75rem;
+    z-index: 5;
+}
+
+.post_dest_delete{
+    display:'flex';
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.postdelete_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    opacity: 75;
+}

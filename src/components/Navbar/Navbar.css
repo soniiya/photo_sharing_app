@@ -1,0 +1,72 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+    padding-top: 1.75rem;
+}
+
+.navbar_search{
+    display: flex;
+    width: 50%;
+    border-style:none;
+    border-radius: 0.37rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar_input{
+   outline: 2px solid transparent; 
+   outline-offset: 2px;
+   padding: 0.5rem; 
+   width: 100%;
+}
+
+.navbar_addbtn button{
+    display: flex;
+     gap: 0.75;
+     color: white;
+     background-color: red;
+     margin-right: 0.5rem;
+     border: none;
+     cursor: pointer;
+}
+
+.navbar_others{
+    display: flex;
+}
+
+.login_btn{
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 0rem 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logout_btn{
+    width: 80px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 0rem 0.5rem;
+    cursor: pointer;    
+}
+
+@media screen and (max-width: 650px){
+    .login_btn{
+        width: 50px;
+        font-size: 12px;
+    }
+    .navbar_others{
+        margin-left: 1rem;
+    }
+}
